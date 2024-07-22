@@ -1,20 +1,22 @@
-# Diabetes Prediction Using Linear Regression
 
-This project aims to predict the likelihood of diabetes using health indicators. The dataset used is from the `diabetes_binary_split_health_indicators_BRFSS2015` table in a SQL Server database. The prediction model is built using linear regression.
 
+
+# Diabetes Prediction Data Analysis Project
+
+## Overview
+
+This project involves analyzing a dataset of health indicators related to diabetes using Python. The primary objective is to build a predictive model to determine the likelihood of diabetes based on various health factors.
 ## Table of Contents
 
-- [Project Overview](#project-overview)
+- [Project Overview](#overview)
 - [Features](#features)
 
-## Project Overview
-
-The project connects to a SQL Server database, fetches data, preprocesses it, and builds a linear regression model to predict diabetes. The dataset includes various health indicators such as BMI, blood pressure, and cholesterol levels.
 
 ## Features
 
-- Connects to a SQL Server database to fetch data.
-- Preprocesses data by converting columns to appropriate data types.
-- Splits the data into training and testing sets.
-- Builds a linear regression model.
-- Calculates the possibility of diabetes based on the health indicators.
+- **Data Extraction:** Connecting to an SQL Server database and fetching the dataset.
+- **Data Cleaning:** Converting data types and ensuring consistency.
+- **Data Analysis:** Exploring and visualizing data using libraries like `pandas` and `seaborn`.
+- **Model Building:** Using a Perceptron model from `scikit-learn` to predict diabetes.
+- **Model Evaluation:** Assessing the performance of the model using metrics like accuracy.
+- **Output:** Saving the processed data and predictions to a CSV file.
